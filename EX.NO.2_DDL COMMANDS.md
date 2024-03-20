@@ -25,7 +25,9 @@ To create a student database and execute DDL queries using SQL.
 
 ### SQL QUERY:
 
+```
 create database studentdbb;
+```
 
 ### OUTPUT:
 
@@ -34,9 +36,9 @@ create database studentdbb;
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY: 
-
+```
 create table student(RegisterNumber int,Name varchar(100),Age int,Address varchar(250),PhoneNumber int) ;
-
+```
 
 ### OUTPUT:
 
@@ -46,9 +48,10 @@ create table student(RegisterNumber int,Name varchar(100),Age int,Address varcha
 ### 3) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```
 
  alter table student add dept varchar(20);
-
+```
 
 ### OUTPUT:
 
@@ -60,9 +63,9 @@ create table student(RegisterNumber int,Name varchar(100),Age int,Address varcha
 ### 4) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```
 rename table student to mystudent;
-
+```
 ### OUTPUT:
 
 ![Screenshot 2024-03-20 102245](https://github.com/divyadivya10/DBMS/assets/119560271/3d4f28d0-cf0a-4605-8991-98287638932a)
@@ -71,9 +74,9 @@ rename table student to mystudent;
 ### 5) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
-
+```
 truncate table mystudent;
-
+```
 
 ### OUTPUT:
 
@@ -82,9 +85,9 @@ truncate table mystudent;
 ### 4) Drop the mystudent table
  
 ### SQL QUERY: 
-
+```
 drop table mystudent;
-
+```
 ### OUTPUT:
 
 ![image](https://github.com/divyadivya10/DBMS/assets/119560271/2775f330-d889-4f0e-b014-92b8a7df52d7)
