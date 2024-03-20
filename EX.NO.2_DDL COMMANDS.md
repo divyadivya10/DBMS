@@ -82,7 +82,7 @@ truncate table mystudent;
 
 ![Screenshot 2024-03-20 102334](https://github.com/divyadivya10/DBMS/assets/119560271/3c1b3d3a-c59c-41cb-97b6-7037290807d0)
 
-### 4) Drop the mystudent table
+### 6) Drop the mystudent table
  
 ### SQL QUERY: 
 ```
