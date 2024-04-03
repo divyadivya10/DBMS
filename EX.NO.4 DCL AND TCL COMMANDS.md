@@ -78,7 +78,9 @@ insert into employee(4,'Robin','EniesLobby');
 
 ### QUERY:
 ```
-insert into employee(4,'Robin','EniesLobby');
+sql
+select * from employee;
+savepoint s2;
 ```
 
 
